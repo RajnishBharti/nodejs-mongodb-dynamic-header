@@ -1,0 +1,25 @@
+
+<%-include('common/head.ejs')-%>
+
+<title>Page Title</title>
+</head>
+<body>
+
+
+
+    <%-include('common/header.ejs')-%>
+
+    <%if(sucess && sucess !=''){%>
+        <div class="alert alert-success" role="alert">
+           <%= sucess%>
+            </div>
+
+    <%}else if(err && err !=''){%>
+        <div class="alert alert-danger" role="alert">
+            <%= err%>
+        <%}%>
+    
+    <h1>fsf</h1>
+
+</body>
+</html>
